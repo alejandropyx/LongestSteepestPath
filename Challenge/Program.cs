@@ -5,7 +5,6 @@ using System.Collections.Generic;
 
 namespace Challenge
 {
-
     class Program
     {
 
@@ -14,14 +13,14 @@ namespace Challenge
         {
 
 
-            String file = File.ReadAllText( @"..\4x4.txt" );
+            String file = File.ReadAllText( @"..\map.txt" );
             int[,] map =  ReadMatrix( file ); 
 
             List<int> asw = FindLogestPath(map);
 
             Console.Write("Length: {0} \n\nDrop: {1} \n\n", asw.Count, asw[0]-asw[asw.Count-1]  );
             Console.Write("Calculated: ");
-            asw.ForEach(i => Console.Write("{0}\t", i));
+            asw.ForEach(i => Console.Write("{0}-", i));
             Console.Write("\n\n");  
         }
 
