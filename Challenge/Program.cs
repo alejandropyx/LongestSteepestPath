@@ -6,23 +6,6 @@ using System.Collections.Generic;
 namespace Challenge
 {
 
-/*
-    public class Path{
-
-        public List<int> steps {get;set;}
-        public int lenghtPath {get;set;}
-        public int step {get;set;}
-
-        public Path(List<int> steps, int lenghtPath,int step )
-        {
-        steps = steps;
-        lenghtPath = lenghtPath;
-        step = step; 
-        }
-
-
-    }
-    */
     class Program
     {
 
