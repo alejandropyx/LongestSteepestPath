@@ -1,14 +1,11 @@
 using System;
 using System.IO;
-using System.Collections;
 using System.Collections.Generic;
 
 namespace Challenge
 {
     class Program
-    {
-
-        //public int[,] neighbors = {{1,0}, {-1,0}, {0,1},{0,-1}};
+    {       
         static void Main(string[] args)
         {
 
